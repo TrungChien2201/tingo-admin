@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* global */
+    --main-color: #007bff;
+    --main-green: #1ABB9C;
+    --main-border-color: #ced4da;
+    --main-search-bar: rgba(52, 73, 94, 0.94);
+    --main-gray: #6e6b68;
+    --main-dark-500: #73879C;
+    --main-dark: #000000;
+    --main-white: #FFFFFF;
+    --main-background: #F7F7F7;
+    --font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    --main-bg-bar: #2A3F54;
+    --main-stripe-color: rgba(255, 255, 255, 0.05);
+    --main-bg-disabled: #e9ecef;
+    --main-form-height: 38px;
+    --main-color-steps: #34495E;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
+
